@@ -1,0 +1,53 @@
+{
+  "activities": [
+    {
+      "id": "regular-services",
+      "title": "Regular Services",
+      "description": "Daily tuitions and Bala Vikas activities in the villages. Daily afternoon meals to elderly and differently-abled individuals in villages.",
+      "villages": [
+        "Nagayya Peta",
+        "Kasi Puram",
+        "Chinna Nandipally",
+        "Pedanandipally Agraharam",
+        "Sathya Narayana Puram",
+        "Taruva"
+      ],
+      "adoptedVillages": [
+        "Pedanandipally",
+        "Valabhu",
+        "Tribal Villages"
+      ],
+      "otherServices": [
+        "Temple development",
+        "School development",
+        "Village sanitation",
+        "Devotional cultural activities",
+        "Medical assistance to needy"
+      ],
+      "years": {
+        "2025": [
+          "Started daily afternoon meal program in Nagayya Peta",
+          "Expanded Bala Vikas sessions in Pedanandipally"
+        ],
+        "2024": [
+          "Launched tuition support for children in Kasi Puram",
+          "Sanitation drive in Chinna Nandipally"
+        ]
+      }
+    },
+    {
+      "id": "other-services",
+      "title": "Other Services",
+      "description": "Temple development, school development, village sanitation, devotional cultural activities, and medical assistance to the needy.",
+      "years": {
+        "2025": [
+          "Medical camp organized in Valabhu",
+          "School renovation project started"
+        ],
+        "2023": [
+          "Devotional cultural programs conducted across villages"
+        ]
+      }
+    }
+  ]
+}

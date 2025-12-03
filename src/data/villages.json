@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pedanandipally",
+    "villagename": "Pedanandipally",
+    "photos": [
+      "/assets/images/pedanandipally1.jpg",
+      "/assets/images/pedanandipally2.jpg"
+    ],
+    "description": "A village where we run Bala Vikas programs and daily tuition support for children. Several development initiatives have been carried out here.",
+    "daily-events": [
+      {
+        "event": "Daily Tuitions and Bala Vikas",
+        "description": "Regular evening tuitions and Bala Vikas spiritual/values sessions for children.",
+        "photos": [
+          "/assets/images/pedanandipally_daily1.jpg"
+        ]
+      },
+      {
+        "event": "Afternoon meals for elderly and handicapped",
+        "description": "Nutritious meals delivered to elderly and differently-abled individuals.",
+        "photos": [
+          "/assets/images/pedanandipally_meal1.jpg"
+        ]
+      }
+    ],
+    "year-events": [
+      {
+        "year": 2025,
+        "events": [
+          {
+            "name": "Sai Birthday Celebration",
+            "photos": [
+              "/assets/images/pedanandipally_sai2025.jpg"
+            ],
+            "description": "Community celebration with food distribution and cultural programs."
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "events": [
+          {
+            "name": "Sanitation Drive",
+            "photos": [
+              "/assets/images/pedanandipally_sanitation2024.jpg"
+            ],
+            "description": "Village-wide cleanliness and awareness campaign."
+          }
+        ]
+      }
+    ],
+    "development-events": [
+      {
+        "event-name": "School development",
+        "description": "Renovation of primary classroom and painting.",
+        "year": 2024,
+        "photos": [
+          "/assets/images/pedanandipally_school2024.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valabhu",
+    "villagename": "Valabhu",
+    "photos": [
+      "/assets/images/valabhu1.jpg"
+    ],
+    "description": "Adopted village with regular medical camps and cultural activities.",
+    "daily-events": [
+      {
+        "event": "Bala Vikas",
+        "description": "Weekly Bala Vikas sessions.",
+        "photos": []
+      }
+    ],
+    "year-events": [
+      {
+        "year": 2025,
+        "events": [
+          {
+            "name": "Medical Camp",
+            "photos": [
+              "/assets/images/valabhu_medical2025.jpg"
+            ],
+            "description": "Free medical checkups and medicine distribution."
+          }
+        ]
+      }
+    ],
+    "development-events": [
+      {
+        "event-name": "Temple development",
+        "description": "Minor repairs and beautification.",
+        "year": 2023,
+        "photos": []
+      }
+    ]
+  }
+]
