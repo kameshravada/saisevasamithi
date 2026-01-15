@@ -1,0 +1,267 @@
+{
+  "id": "pedanandipally",
+  "slug": "pedanandipally",
+  "name": "Pedanandipally",
+  "status": "adopted",
+  "adoptedSince": 2018,
+  "location": {
+    "district": "Nellore",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "coordinates": ""
+  },
+
+  "summary": "A village where Sathya Sai Seva Samithi supports children through education, healthcare, village development and daily meal services for elders.",
+  "tags": [
+    "education",
+    "health",
+    "village-development",
+    "skill-development",
+    "daily-meals"
+  ],
+  "needs": ["water", "medical", "education"],
+  "photos": [
+    "/images/villages/pedanandipally/hero.jpg",
+    "/images/villages/pedanandipally/overview-1.jpg",
+    "/images/villages/pedanandipally/overview-2.jpg"
+  ],
+
+  "services": {
+    "education": {
+      "active": true,
+      "sinceYear": 2018,
+      "items": [
+        {
+          "serviceId": "tuition",
+          "title": "Evening Tuition Center",
+          "sinceYear": 2018,
+          "notes": "Daily evening tuitions for government school children.",
+          "metrics": {
+            "approxStudentsPerYear": 45
+          },
+          "photos": ["/images/villages/pedanandipally/education/tuition-1.jpg"]
+        },
+        {
+          "serviceId": "balvikas",
+          "title": "Bal Vikas Classes",
+          "sinceYear": 2019,
+          "notes": "Weekly Bal Vikas classes focusing on values and bhajans.",
+          "photos": []
+        },
+        {
+          "serviceId": "appoint-teachers",
+          "title": "Appointed Additional Teacher",
+          "sinceYear": 2021,
+          "notes": "Samithi-sponsored teacher for primary classes.",
+          "photos": []
+        },
+        {
+          "serviceId": "school-dev",
+          "title": "School Development",
+          "sinceYear": 2020,
+          "notes": "Regular support for repairs and infrastructure.",
+          "photos": []
+        },
+        {
+          "serviceId": "bathroom-repairs",
+          "title": "Bathroom Repairs",
+          "sinceYear": 2022,
+          "notes": "Renovated school bathrooms for hygiene.",
+          "photos": []
+        },
+        {
+          "serviceId": "sports",
+          "title": "Sports & Games",
+          "sinceYear": 2023,
+          "notes": "Sports kits and village-level sports events.",
+          "photos": []
+        },
+        {
+          "serviceId": "stationary",
+          "title": "Stationary Distribution",
+          "sinceYear": 2018,
+          "notes": "Books, pens, pencils and other stationary every academic year.",
+          "photos": []
+        },
+        {
+          "serviceId": "bags",
+          "title": "School Bags",
+          "sinceYear": 2023,
+          "notes": "New school bags for children.",
+          "photos": []
+        },
+        {
+          "serviceId": "clothes",
+          "title": "Clothes Distribution",
+          "sinceYear": 2022,
+          "notes": "New clothes to selected families and children.",
+          "photos": []
+        },
+        {
+          "serviceId": "other-edu-work",
+          "title": "Other Educational Support",
+          "sinceYear": 2019,
+          "notes": "Benches, blackboards and special requirements.",
+          "photos": []
+        }
+      ]
+    },
+
+    "health": {
+      "active": true,
+      "sinceYear": 2019,
+      "items": [
+        {
+          "serviceId": "medical-camp",
+          "title": "General Medical Camps",
+          "notes": "Periodic medical camps with free consultation.",
+          "photos": [],
+          "metrics": {
+            "campsConducted": 3,
+            "approxPatients": 250
+          }
+        },
+        {
+          "serviceId": "medicines",
+          "title": "Free Medicines",
+          "notes": "Essential medicines given to the needy during camps.",
+          "photos": []
+        },
+        {
+          "serviceId": "surgeries",
+          "title": "Surgery Support",
+          "notes": "Financial help arranged for critical surgeries.",
+          "photos": []
+        },
+        {
+          "serviceId": "vet-camp",
+          "title": "Veterinary Medical Camps",
+          "notes": "Camps for cattle with free medicines.",
+          "photos": []
+        }
+      ]
+    },
+
+    "villageActivities": {
+      "active": true,
+      "items": [
+        {
+          "serviceId": "water-plants",
+          "title": "RO Water Plant",
+          "sinceYear": 2020,
+          "notes": "Established and maintained free RO water plant for the village.",
+          "photos": []
+        },
+        {
+          "serviceId": "sanitation",
+          "title": "Sanitation Support",
+          "sinceYear": 2021,
+          "notes": "Support for sweepers, rickshaw for garbage collection and cleaning workers.",
+          "photos": []
+        },
+        {
+          "serviceId": "planting-trees",
+          "title": "Tree Plantation",
+          "sinceYear": 2022,
+          "notes": "Regular plantation drives around school and temple.",
+          "photos": []
+        },
+        {
+          "serviceId": "temple-dev",
+          "title": "Temple Development",
+          "sinceYear": 2023,
+          "notes": "Renovation and small extension of local temple.",
+          "photos": []
+        }
+      ]
+    },
+
+    "skillDevelopment": {
+      "active": true,
+      "items": [
+        {
+          "serviceId": "tailoring-training",
+          "title": "Tailoring Classes",
+          "sinceYear": 2023,
+          "notes": "Basic tailoring training for women.",
+          "photos": []
+        },
+        {
+          "serviceId": "tailoring-machines",
+          "title": "Tailoring Machines Distribution",
+          "sinceYear": 2024,
+          "notes": "Machines distributed to trained women for self-employment.",
+          "photos": []
+        }
+      ]
+    },
+
+    "mealServices": {
+      "programmeId": "annadaatha-sukhibhava",
+      "active": true,
+      "sinceYear": 2022,
+      "description": "Daily afternoon meals for selected elders and differently-abled individuals in the village.",
+      "approxBeneficiaries": 18,
+      "sponsorshipInfo": {
+        "perDayCost": 3500,
+        "currency": "INR"
+      },
+      "specialSponsorDays": [
+        {
+          "occasionType": "birthday",
+          "note": "Families sponsor meals on children's birthdays."
+        },
+        {
+          "occasionType": "wedding-anniversary",
+          "note": "Couples sponsor in gratitude for their marriage."
+        }
+      ]
+    }
+  },
+
+  "yearlyOverview": [
+    {
+      "year": 2025,
+      "summary": "Focused on strengthening education and Annadaatha Sukhibhava meals.",
+      "events": [
+        {
+          "id": "2025-sai-birthday",
+          "type": "spiritual-program",
+          "name": "Swami's Birthday Celebrations",
+          "date": "2025-11-23",
+          "description": "Children performed bhajans and skits; prasadam distributed to villagers.",
+          "photos": ["/images/villages/pedanandipally/events/2025-sai-bday.jpg"]
+        },
+        {
+          "id": "2025-medical-camp-1",
+          "type": "health",
+          "serviceId": "medical-camp",
+          "date": "2025-02-14",
+          "description": "Joint medical camp with nearby villages.",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "summary": "Major focus on sanitation drive and Eswaramma Day celebration.",
+      "events": [
+        {
+          "id": "2024-eswaramma-day",
+          "type": "spiritual-program",
+          "name": "Eswaramma Day",
+          "date": "2024-05-06",
+          "description": "Children participated on stage to overcome stage fear and understand Swami's ideals.",
+          "photos": []
+        },
+        {
+          "id": "2024-sanitation-drive",
+          "type": "village-activity",
+          "serviceId": "sanitation",
+          "description": "Village-wide cleanliness drive with youth and children.",
+          "photos": []
+        }
+      ]
+    }
+  ]
+}

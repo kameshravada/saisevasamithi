@@ -13,15 +13,16 @@ import Footer from "../Components/Footer";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-yellow-50/20 to-white">
       <Header />
       <Hero2 />
-      <AboutBaba/>
-      <MissionValues/>
-      <FeaturedVideo/>
+      <AboutBaba />
+      <PreviousActivityCards />
+      <FeaturedVideo />
+      <MissionValues />
 
       <motion.section
-        className="bg-white py-16 px-6 md:px-16 text-center"
+        className=" py-16 px-6 md:px-16 text-center"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -46,11 +47,11 @@ const HomePage = () => {
           “Service to man is service to God.” — Bhagawan Sri Sathya Sai Baba
         </p>
       </motion.section>
-      <PreviousActivityCards />
-      <GallerySection/>
-      <Testimonials/>
-      <GetInvolved/>
-      <Footer/>
+
+      <GallerySection />
+      <Testimonials />
+      <GetInvolved />
+      <Footer />
     </div>
   );
 };

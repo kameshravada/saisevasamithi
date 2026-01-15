@@ -125,13 +125,14 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const links = [
   { label: "Home", to: "/" },
-  { label: "About", to: "#about" },
-  { label: "Events", to: "/events" },
+  { label: "About", to: "/about" },
+  { label: "Activities", to: "#ourActivities" },
   { label: "Gallery", to: "/gallery" },
-  { label: "Get Involved", to: "#get-involved" },
+  { label: "Contribute", to: "/contribute" },
   { label: "Contact", to: "#footer" },
 ];
 
@@ -143,15 +144,15 @@ export default function Header() {
         Skip to content
       </a>
 
-      <header className="sticky top-0 z-50 bg-white ">
-        <div className="glass-card mx-auto max-w-7xl px-4 sm:px-6 lg:px-14  flex items-center justify-between ">
+      <header className="sticky top-0 z-50 bg-white">
+        <div className="glass-card mx-auto max-w-7xl px-4 sm:px-6 lg:px-14  flex items-center justify-between">
           <Link
             to="/"
             className="flex items-center gap-3"
             aria-label="Sai Margam Home"
           >
             <img
-              src="/images/saimargam_logo.png"
+              src="/images/saimargam_logo_.png"
               alt="Sai Margam"
               className="h-16 md:h-20 w-auto"
             />
@@ -171,14 +172,15 @@ export default function Header() {
             aria-label="Primary"
           >
             {links.map((l) => (
-              <Link
+              <HashLink
+              smooth
                 key={l.label}
                 to={l.to}
                 className="relative group text-gray-700 hover:text-amber-600 transition"
               >
                 <span>{l.label}</span>
                 <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-amber-400 group-hover:w-full transition-all" />
-              </Link>
+              </HashLink>
             ))}
             {/* <Link
               to="/donate"
@@ -230,14 +232,15 @@ export default function Header() {
                 </div>
                 <nav className="mt-6 flex flex-col gap-5">
                   {links.map((l) => (
-                    <Link
+                    <HashLink
+                    smooth
                       key={l.label}
                       to={l.to}
                       onClick={() => setOpen(false)}
                       className="text-lg font-medium text-gray-800"
                     >
                       {l.label}
-                    </Link>
+                    </HashLink>
                   ))}
                   {/* <Link
                     to="/donate"

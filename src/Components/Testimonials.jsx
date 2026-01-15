@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Devotee 1",
+    name: "Kishore",
     quote:
       "Serving through Sai Margam has filled my life with peace and divine joy.",
   },
   {
-    name: "Devotee 2",
+    name: "Ramu",
     quote: "A beautiful opportunity to connect with Swami through seva.",
   },
 ];
 
 const Testimonials = () => (
-  <section className="bg-white py-16 px-6 md:px-20">
+  <section className="py-16 px-6 md:px-20">
     <motion.h2
       className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10"
       initial={{ opacity: 0, y: 20 }}
@@ -28,7 +28,7 @@ const Testimonials = () => (
       {testimonials.map((t, i) => (
         <motion.div
           key={i}
-          className="bg-gray-50 p-6 rounded-xl shadow"
+          className="bg-gray-50 p-6 rounded-xl shadow-md"
           whileHover={{ scale: 1.02 }}
         >
           <p className="italic text-gray-600 mb-4">“{t.quote}”</p>

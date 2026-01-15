@@ -8,7 +8,11 @@ const images = [
   "/images/gallery/IMG-20170708-WA0025.jpg",
   "/images/gallery/IMG-20170708-WA0028.jpg",
   "/images/gallery/IMG-20170708-WA0031.jpg",
-  "/images/gallery/IMG-20170924-WA0006.jpg"
+  "/images/gallery/IMG-20170924-WA0006.jpg",
+  "/images/gallery/IMG-20170708-WA0025.jpg",
+  "/images/gallery/IMG-20170708-WA0028.jpg",
+  "/images/gallery/IMG-20170708-WA0031.jpg",
+  "/images/gallery/IMG-20170924-WA0006.jpg",
 ];
 
 // Utility to compute columns based on window width (matches Tailwind-like breakpoints)
@@ -36,7 +40,7 @@ const GallerySection = () => {
   const remaining = images.length - shownImages.length;
 
   return (
-    <section className="py-12 px-6 md:px-20 bg-gray-50">
+    <section className="py-12 px-6 md:px-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Gallery</h2>
         <p className="text-center text-gray-600 mb-8">A selection of recent photos.</p>
@@ -56,7 +60,7 @@ const GallerySection = () => {
                     className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-lg font-semibold"
                     aria-label={`View ${remaining} more photos`}
                   >
-                    +{remaining} photos — Click to view
+                    +{remaining} more
                   </Link>
                 )}
               </div>

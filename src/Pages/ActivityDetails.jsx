@@ -6,13 +6,15 @@ const ActivityDetails = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("/src/data/activities.json")
+    fetch("/src/content/activities.json")
       .then(r => r.json())
       .then(d => {
         const found = (d.activities || []).find(x => x.id === id);
         setData(found || null);
       }).catch(e => console.error(e));
   }, [id]);
+
+  console.log("ActivityDetails data:", data)
 
   if (!data) {
     return (

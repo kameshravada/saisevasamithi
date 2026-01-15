@@ -1,0 +1,90 @@
+[
+  {
+    "id": "villages-adopted",
+    "categoryKey": "villages",
+    "title": "Village Adoption",
+    "shortDescription": "Walking hand-in-hand with villages on their journey of upliftment.",
+    "highlights": [
+      "4 Villages Adopted",
+      "20 More Villages in Adoption Pipeline",
+      "Focus on Water, Medical & Education"
+    ],
+    "route": "/villages",
+    "theme": "villages",
+    "priority": 1
+  },
+  {
+    "id": "education-services",
+    "categoryKey": "education",
+    "title": "Educational Services",
+    "shortDescription": "Nurturing young minds through education, values, and care.",
+    "highlights": [
+      "Tuitions",
+      "Bal Vikas Classes",
+      "Appointing Teachers",
+      "School Repairs & Development",
+      "Stationery & Bags",
+      "Sports Activities"
+    ],
+    "route": "/seva/education",
+    "theme": "education",
+    "priority": 2
+  },
+  {
+    "id": "health-services",
+    "categoryKey": "health",
+    "title": "Health Service Activities",
+    "shortDescription": "Ensuring health and dignity through compassionate medical support.",
+    "highlights": [
+      "Medical Camps",
+      "Providing Medicines",
+      "Supporting Surgeries",
+      "Veterinary Medical Camps with Free Medicines"
+    ],
+    "route": "/seva/health",
+    "theme": "health",
+    "priority": 3
+  },
+  {
+    "id": "village-activities",
+    "categoryKey": "village-development",
+    "title": "Village Development Activities",
+    "shortDescription": "Building clean, healthy, and self-sustained villages.",
+    "highlights": [
+      "Water Plants (Free RO Water)",
+      "Sanitation & Cleanliness Support",
+      "Temple Development & Renovation"
+    ],
+    "route": "/seva/village-development",
+    "theme": "village",
+    "priority": 4
+  },
+  {
+    "id": "skill-development",
+    "categoryKey": "skill-development",
+    "title": "Skill Development",
+    "shortDescription": "Empowering women through skills and self-reliance.",
+    "highlights": [
+      "Tailoring Training for Women",
+      "Free Sewing Machine Distribution"
+    ],
+    "route": "/seva/skill-development",
+    "theme": "skill",
+    "priority": 5
+  },
+  {
+    "id": "annadaatha-sukhibhava",
+    "categoryKey": "annadaatha",
+    "title": "Annadaatha Sukhibhava",
+    "shortDescription": "Daily afternoon meals served with love to elders in adopted villages.",
+    "highlights": [
+      "Daily Meals for Elders",
+      "Sponsored on Special Occasions",
+      "Currently Serving 6 Villages",
+      "Cost per Day ≈ ₹3400"
+    ],
+    "route": "/annadaatha",
+    "theme": "meals",
+    "priority": 6
+  }
+]

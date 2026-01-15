@@ -51,7 +51,7 @@ const AboutBaba = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lYpSq1yhc9EE6cC3sB8FoaP_VuLVA-VYjA&s"
+            src="/images/sai-baba-img.jpg"
             alt="Bhagawan Sri Sathya Sai Baba"
             className="w-full max-w-sm rounded-2xl shadow-xl object-cover border-4 border-yellow-100"
           />

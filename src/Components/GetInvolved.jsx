@@ -1,8 +1,9 @@
 import React from "react";
 import {motion} from "framer-motion";
+import { HashLink } from "react-router-hash-link";
 
 const GetInvolved = () => (
-  <section className="py-16 px-6 md:px-20 bg-gray-50 text-center">
+  <section className="py-16 px-6 md:px-20 text-center">
     <motion.h2
       className="text-3xl md:text-4xl font-bold text-gray-800 mb-6"
       initial={{ opacity: 0, y: 20 }}
@@ -17,7 +18,9 @@ const GetInvolved = () => (
       volunteer your time, or contribute in ways close to your heart.
     </p>
     <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-600 transition">
-      Join Now
+      <HashLink smooth to={"/contribute"}>
+      Contribute
+      </HashLink>
     </button>
   </section>
 );
