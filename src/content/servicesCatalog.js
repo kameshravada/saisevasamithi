@@ -146,7 +146,7 @@ const servicesCatalog = {
     id: "annadaatha",
     villageServiceKey: "dailyMeals",
     isSpecialProgram: true,
-    icon: "public/images/annadaatha-sukhibhava.png",
+    icon: "/images/annadaatha-sukhibhava.png",
     title: "Annadaatha Sukhibhava",
     heroQuote: "There is no greater service than feeding the hungry.",
     intro:
